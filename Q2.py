@@ -5,10 +5,9 @@ elif n == 2:
     print("2是一个素数")
 else:
      for i in range(2,n):
-         if n % i !=0:
-             print(n ,"不是一个素数")
+         if n % i ==0:
+             print(f"{n}不是一个素数")
              break
-         else:
-             print(n , "是一个素数")
-         
+     else:
+           print(f"{n}是一个素数")
          
