@@ -9,5 +9,5 @@ else:
              print(f"{n}不是一个素数")
              break
      else:
-           print(f"{n}是一个素数")
+         print(f"{n}是一个素数")
          
