@@ -5,6 +5,4 @@ for i in every_number:
     x = int(i)
     if x>max:
         max=x
-    else:
-        continue
 print(f"The largest number is:{max}")

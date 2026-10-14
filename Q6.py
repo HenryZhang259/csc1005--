@@ -6,7 +6,7 @@ try:
 except ValueError:
     print(" value error！please input an integer bigger than 0！！！")
 else:
-    for i in range(1,n+1):
+    for i in range(1,n):
         sum = 0
         for f in range(1,i):
             if i % f == 0:

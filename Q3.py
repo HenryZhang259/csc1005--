@@ -1,7 +1,7 @@
 n = input("please input an integer bigger than one:")
 try:
     n = int(n)
-    if n <= 1 :
+    if n < 0 :
         print(" value error！please input an integer bigger than one！！！")
 except ValueError:
     print(" value error！please input an integer bigger than one！！！")
