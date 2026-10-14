@@ -1,10 +1,10 @@
-n = input("please input an integer N bigger than 0:")
+n = input("please input a non-negative integer n:")
 try:
     n = int(n)
     if n < 0 :
         raise ValueError
 except ValueError:
-    print(" value error！please input an integer bigger than 0！！！")
+    print(" value error！please input a non-negative integer n！！！")
 else:
     if n == 0:
         print("The factorial of 0 is : 1")
